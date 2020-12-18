@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet"  href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Интернет-магазин Bree-ecom</title>
+</head>
+<body class="inner-page-product">
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a class="header-logo">Логотип Bree-ecom</a>
+			<ul class="site-navigation">
+				<li><a href="catalog-footwear.html">footwear</a></li>
+				<li><a href="#0">clothing</a></li>
+				<li><a href="#0">acessories</a></li>
+				<li><a href="catalog-exclusive.html">brands</a></li>
+				<li><a href="product-blocs.html">clearance</a></li>
+			</ul>
+			<ul class="user-navigation">
+				<li class="search-link">
+					<a href="#0" class="search-link-icon">search</a>
+				</li>
+				<li class="basket-link">
+					<a href="#0" class="basket-link-icon">cart<span class="basket-quantity-goods">(2)</span></a>
+					<form class="basket"action="#0" method="post">
+						<div class="informations-customer">
+							<h2>Informations</h2>
+							<fieldset class="personal-information">
+								<legend>personnal informations</legend>
+								<select name="country" size="1">
+									<option value="russia">Россия</option>
+									<option value="belarus">Беллорусия</option>
+									<option value="finland">Финляндия</option>
+								</select>
+								<div class="personal-information-wrapper">
+									<input type="text" placeholder="First name" name="first-name">
+									<input type="text" placeholder="Second name" name="second-name">
+									<input type="text" placeholder="Adress" name="adress">
+									<input type="text" placeholder="Postal code" name="postal-code">
+									<input type="text" placeholder="City" name="city">
+									<input type="email" placeholder="Email" name="email">
+									<input type="tel" placeholder="Phone" name="phone">
+								</div>
+							</fieldset>
+							<fieldset class="comment">
+								<legend>notes</legend>
+								<textarea name="note" rows="1" cols="30" placeholder="Note"></textarea>
+							</fieldset>
+							<fieldset class="delivery">
+								<legend>delivery mode</legend>
+								<select name="delivery" size="1">
+									<option value="collisimo-france">Collisimo france, &#36;20.00</option>
+									<option value="russian-post">Russian post, &#36;15.00</option>
+								</select>
+							</fieldset>
+						</div>
+						<div class="informations-products">
+							<fieldset class="products-basket">
+								<legend>your cart</legend>
+								<ul class="products-basket-list">
+									<li class="products-basket-item">
+										<p class="products-basket-quantity"><span>1</span><button class="more">Увеличить</button><button class="less">Уменьшить</button></p>
+										<img src="img/comme-basket.png" alt="Кроссовки comme des" width="55" height="31">
+										<p class="products-basket-description">comme des garcons play <span>Rod Laver Vintage - exlusive</span></p>
+										<p class="products-basket-price">size <span>7,5</span> &#36; 105.00</p>
+									</li>
+									<li class="products-basket-item">
+										<p class="products-basket-quantity"><span>1</span><button class="more">Увеличить</button><button class="less">Уменьшить</button></p>
+										<img src="img/nike-basket.png" alt="Кроссовки nike" width="55" height="26">
+										<p class="products-basket-description">nike <span>Air Max Tavas SD</span></p>
+										<p class="products-basket-price">size <span>7,5</span> &#36; 160.00</p>
+									</li>
+								</ul>
+								<p class="basket-sum-shipping">shipping<span>&#36; 20.00</span></p>
+								<p class="products-sum-subtotal">subtotal<span>&#36; 285.00</span></p>
+							</fieldset>
+							<input type="checkbox" name="consent-processing" class="visually-hidden" id="consent-processing">
+							<label class="consent" for="consent-processing">I agree <a href="#0">terms of use and privacy</a></label>
+							<button class="button button-basket" type="submit">confirm</button>
+						</div>
+					</form>
+				</li>
+				<li class="login-link">
+					<a class="login-link-icon" href="#0">sign in</a>
+				</li>
+			</ul>
+		</nav>		
+	</header>
+	<main class="main-contents">
+		<section class="main-product container">
+			<img src="img/page-product.png" alt="Кроссовки nike air max tavas sd" width="638" height="296">
+			<form class="product-characteristic" method="post" action="#0">
+				<input class="favourites-check visually-hidden" type="checkbox" id="favourites" name="favourites">
+				<label class="favourites" for="favourites">Избранное</label>
+				<h1 class="product-characteristic-heading"><span>nike</span>air max tavas sd</h1>
+				<p class="price">160.00</p>
+				<p class="colors">colors - <a href="#0">black/pink pow/tour yellow/white</a></p>
+				<p class="model-list">
+					<a href="#0" class="model-item"><img src="img/page-product-min.png" alt="Модель кроссовок nike" width="80" height="80"></a>
+					<a href="#0" class="model-item"><img src="img/page-product-sepia.png" alt="Модель кроссовок nike" width="80" height="80"></a>
+				</p>
+				<fieldset class="grid-size">
+					<legend>Size charts</legend>
+					<select class="footwear-size" name="size" size="1">
+						<option value="size">size</option>
+						<option value="7.5">7.5</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="9.5">9.5</option>
+					</select>
+					<a href="#0" class="button add-basket">add to cart</a>
+				</fieldset>
+			</form>
+		</section>
+		<section class="description-product">
+			<div class="container"> 
+				<h2>classic cushioning. modern comfort.</h2>
+				<p>The Nike Air Max Tavas SD Men's Shoe recalls the profile of the iconic running original with a Max Air unit in the heel and multi-surface Waffle outsole. A lightweight upper and gradient detail offer a comfortable fit and dynamic look.</p>
+			</div>
+		</section>
+		<section class="advantages-product">
+			<div class="advantages-wrapper container">
+				<div class="story-advantages">
+					<p class="subtitle-advantages">story</p>
+					<h3>nike air max origins</h3>
+					<p class="story-description">Nike's revolutionary Air-Sole unit made its way into Nike footwear in the late '70s. In 1987, the Nike Air Max 1 debuted with visible air in its heel, allowing fans more than just the feel of Air-Sole comfort</p>
+					<p class="subtitle-advantages">benefits</p>
+					<ul class="advantages-list">
+						<li>layered textile/synthetic upper 
+							<p>for lightweight durability and comfort</p>
+						</li>
+						<li>injected phylon midsole doubles 
+							<p>Outsole to reduce the overall weight of the shoe</p>
+						</li>
+						<li>max air heel unit 
+							<p>delivers maximum lightweight cushioning</p>
+						</li>
+						<li>rubber waffle outsole
+							<p>Durable, multi-surface traction</p>
+						</li>
+					</ul>
+				</div>
+				<div class="box-product">
+					<h2>nike</h2>
+					<p class="box-product-model">Air max Tavas SD</p>
+					<a href="#0">black/pink pow/tour yellow/white</a>
+					<img src="img/page-product-box.png" alt="Кроссовки nike" width="263" height="122">
+					<p class="stock-price">en stock<span>160.00</span></p>
+					<form action="#0" method="post">
+						<select class="footwear-size" name="size" size="1">
+							<option value="size">size</option>
+							<option value="7.5">7.5</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="9.5">9.5</option>
+						</select>
+						<a href="#0" class="button add-basket">add to cart</a>
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="social-product container">
+			<p class="subtitle-advantages">social</p>
+			<h3><a href="#0" class="social-link-instagram">#nikeairmax</a></h3>
+			<div class="social-picture">
+				<img src="img/page-product-social-1.png" alt="Кроссовки nike" width="280" height="280">
+				<img src="img/page-product-social-2.png" alt="Кроссовки nike" width="280" height="280">
+				<img src="img/page-product-social-3.png" alt="Кроссовки nike" width="280" height="280">
+				<img src="img/page-product-social-4.png" alt="Кроссовки nike" width="280" height="280">
+			</div>
+		</section>
+	</main>
+	<footer class="main-footer">
+		<section class="footer-navigation">
+			<a href="#0" class="footer-logo">Логотип Bree-ecom</a>
+			<ul class="footer-catalog-list">
+				<li class="footer-catalog-item"><a href="#0">footwear</a></li>
+				<li class="footer-catalog-item"><a href="#0">clothing</a></li>
+				<li class="footer-catalog-item"><a href="#0">accessories</a></li>
+				<li class="footer-catalog-item"><a href="#0">brands</a></li>
+				<li class="footer-catalog-item"><a href="#0">clearance</a></li>
+				<li class="footer-catalog-item"><a href="#0">about</a></li>
+				<li class="footer-catalog-item"><a href="#0">contacts us</a></li>
+				<li class="footer-catalog-item"><a href="#0">support</a></li>
+				<li class="footer-catalog-item"><a href="#0">store locator</a></li>
+				<li class="footer-catalog-item"><a href="#0">press room</a></li>
+				<li class="footer-catalog-item"><a href="#0">website terms</a></li>
+				<li class="footer-catalog-item"><a href="#0">select country</a></li>
+				<li class="footer-catalog-item"><a href="#0">source code</a></li>
+			</ul>
+			<div class="footer-social-wrapper">
+				<div class="footer-social--wrapper">
+					<ul class="footer-social">
+						<li><a class="social-button youtube-icon" href="#0">youtube</a></li>
+						<li><a class="social-button instagram-icon" href="#0">instagram</a></li>
+						<li><a class="social-button twitter-icon" href="#0">twitter</a></li>
+						<li><a class="social-button facebook-icon" href="#0">facebook</a></li>
+						<li><a class="social-button pinterest-icon" href="#0">pinterest</a></li>
+					</ul>
+					<form action="#0" method="post" class="subscription">
+						<input type="email" placeholder="Subscribe our newsletter...">
+						<button class="subscription-btn" type="submit">subscribe</button>
+					</form>
+				</div>
+				<button type="button" class="feedback">feedback</button>
+			</div>
+		</section>
+		<p class="copyright">Copyright © 2015 Bree Orthonormai. All rights reserved.</p>
+	</footer>
+		<section class="modal modal-contact">
+		<h2 class="visually-hidden">Форма обратной связи</h2>
+		<form action="#0" method="post">
+			<div class="appointment-item-contacts">
+				<p class="appointment-item">
+					<label for="appointment-name">your name:</label>
+					<input id="appointment-name" type="text" name="name" placeholder="Name Surname">
+				</p>
+				<p class="appointment-item">
+					<label for="appointment-email">your e-mail:</label>
+					<input id="appointment-email" type="email" name="email" placeholder="email@example.com">
+				</p>
+			</div>
+			<p class="appointment-item">
+				<label for="appointment-letter">text of the letter:</label>
+				<textarea id="appointment-letter" name="appointment-letter" rows="8" cols="70" placeholder="In a free form"></textarea>
+			</p>
+			<button class="button" type="submit">to send</button>
+		</form>
+		<button class="btn-close-form" type="button">Закрыть</button>
+	</section>
+	<div class="modal-overlay"></div>
+	<script type="text/javascript" src="js/letter.js"></script>
+</body>
+</html>

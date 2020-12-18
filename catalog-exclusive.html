@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet"  href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Интернет-магазин Bree-ecom</title>
+</head>
+<body class="inner-page-exclusive" id="basket">
+	<div class="basket-wrapper">
+		<form class="basket" action="#0" method="post">
+			<div class="informations-customer">
+				<h2>Informations</h2>
+				<fieldset class="personal-information">
+					<legend>personnal informations</legend>
+					<select name="country" size="1">
+						<option value="russia">Россия</option>
+						<option value="belarus">Беллорусия</option>
+						<option value="finland">Финляндия</option>
+					</select>
+					<div class="personal-information-wrapper">
+						<input type="text" placeholder="First name" name="first-name">
+						<input type="text" placeholder="Second name" name="second-name">
+						<input type="text" placeholder="Adress" name="adress">
+						<input type="text" placeholder="Postal code" name="postal-code">
+						<input type="text" placeholder="City" name="city">
+						<input type="email" placeholder="Email" name="email">
+						<input type="tel" placeholder="Phone" name="phone">
+					</div>
+				</fieldset>
+				<fieldset class="comment">
+					<legend>notes</legend>
+					<textarea name="note" rows="1" cols="30" placeholder="Note"></textarea>
+				</fieldset>
+				<fieldset class="delivery">
+					<legend>delivery mode</legend>
+					<select name="delivery" size="1">
+						<option value="collisimo-france">Collisimo france, &#36;20.00</option>
+						<option value="russian-post">Russian post, &#36;15.00</option>
+					</select>
+				</fieldset>
+			</div>
+			<div class="informations-products">
+				<fieldset class="products-basket">
+					<legend>your cart</legend>
+					<ul class="products-basket-list">
+						<li class="products-basket-item">
+							<p class="products-basket-quantity"><span>1</span><button class="more">Увеличить</button><button class="less">Уменьшить</button></p>
+							<img src="img/comme-basket.png" alt="Кроссовки comme des" width="55" height="31">
+							<p class="products-basket-description">comme des garcons play <span>Rod Laver Vintage - exlusive</span></p>
+							<p class="products-basket-price">size <span>7,5</span> &#36; 105.00</p>
+						</li>
+						<li class="products-basket-item">
+							<p class="products-basket-quantity"><span>1</span><button class="more">Увеличить</button><button class="less">Уменьшить</button></p>
+							<img src="img/nike-basket.png" alt="Кроссовки nike" width="55" height="26">
+							<p class="products-basket-description">nike <span>Air Max Tavas SD</span></p>
+							<p class="products-basket-price">size <span>7,5</span> &#36; 160.00</p>
+						</li>
+					</ul>
+					<p class="basket-sum-shipping">shipping<span>&#36; 20.00</span></p>
+					<p class="products-sum-subtotal">subtotal<span>&#36; 285.00</span></p>
+				</fieldset>
+				<input type="checkbox" name="consent-processing" class="visually-hidden" id="consent-processing">
+				<label class="consent" for="consent-processing">I agree <a href="#0">terms of use and privacy</a></label>
+				<button class="button button-basket" type="submit">confirm</button>
+			</div>
+		</form>
+		<a href="#0" class="overlay"></a>
+	</div>
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a href="product-page.html" class="header-logo">Логотип Bree-ecom</a>
+			<ul class="site-navigation">
+				<li><a href="catalog-footwear.html">footwear</a></li>
+				<li><a href="#0">clothing</a></li>
+				<li><a href="#0">acessories</a></li>
+				<li><a>brands</a></li>
+				<li><a href="product-blocs.html">clearance</a></li>
+			</ul>
+			<ul class="user-navigation">
+				<li class="search-link">
+					<a href="#0" class="search-link-icon">search</a>
+				</li>
+				<li class="basket-link">
+					<a href="#basket" class="basket-link-icon">cart<span class="basket-quantity-goods">(2)</span></a>
+				</li>
+				<li class="login-link">
+					<a class="login-link-icon" href="#0">sign in</a>
+				</li>
+			</ul>
+		</nav>		
+	</header>
+	<main class="main-contents">
+		<div class="search">
+			<div class="container">
+				<form class="search-form" action="#0" method="post">
+					<p class="source-search"><span class="search-start-heading">search on bree</span><span class="search-start">Start typing</span></p>
+					<button class="btn-close-form" type="button">Закрыть форму поиска</button>
+					<input name="search" placeholder="search of goods" type="search">
+					<button class="btn-search" type="submit">Поиск</button>
+				</form>
+				<div class="found-products">
+					<p class="quantity-found-goods">footwear<span>(3)</span></p>
+					<ul class="found-products-list row">
+						<li class="col-1">
+							<div class="found-products-item">
+								<div class="product-picture">
+									<img src="img/search-product-1.png" alt="Кроссовки raf simons x adidas" width="222" height="113">
+								</div>
+								<h2>raf simons x adidas</h2>
+								<p class="description">Mid - Platform Light-Up</p>
+								<p class="price">760.00</p>
+							</div>
+						</li>
+						<li class="col-1">
+							<div class="found-products-item">
+								<div class="product-picture">
+									<img src="img/search-product-2.png" alt="Кроссовки raf simons x adidas" width="225" height="105">
+								</div>
+								<h2>raf simons x adidas</h2>
+								<p class="description">Stan smith classic</p>
+								<p class="price">300.00</p>
+							</div>
+						</li>
+						<li class="col-1">
+							<div class="found-products-item">
+								<div class="product-picture">
+									<img src="img/search-product-3.png" alt="Кроссовки raf simons" width="226" height="146">
+								</div>
+								<h2>raf simons</h2>
+								<p class="description">Hi top velcro straps</p>
+								<p class="price">788.00</p>
+							</div>
+						</li>
+						<li class="col-1">
+							<div class="found-products-item">
+								<div class="product-picture">
+									<img src="img/search-product-4.png" alt="Кроссовки raf simons" width="228" height="145">
+								</div>
+								<h2>raf simons</h2>
+								<p class="description">Hi top velcro straps</p>
+								<p class="price">788.00</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<section class="catalog-product container">
+			<h1>exclusive</h1>
+			<p class="quantity-product"><a href="#0">38 products</a></p>
+			<form class="filters-sorting" action="#0" method="post">
+				<select name="sorting" size="1">
+					<option value="most-popular">most popular</option>
+					<option value="at-first-inexpensive">at first inexpensive</option>
+					<option value="at-first-expensive">at first expensive</option>
+					<option value="number-of-orders">number of orders</option>
+				</select>
+			</form>	
+			<ul class="exclusive-list container-inner">
+				<li class="exclusive-item">
+					<div class="picture location">
+						<img src="img/exclusive-Product-1.png" alt="Эксклюзивный товар kith" witgh="412" height="401">
+					</div>
+					<div class="pick">
+						<h2><a href="#0">kith</a></h2>
+						<p class="description">Verctical Logo Tee - White / Navy</p>
+						<p class="price">45.00</p>
+					</div>
+				</li>
+				<li class="exclusive-item">
+					<div class="exclusive-item-wrapper exclusive-item-right">
+						<div class="picture">
+							<div class="picture-item">
+								<img src="img/exclusive-product-2.jpg" alt="Эксклюзивный товар lanvin" witgh="380" height="211">
+							</div>
+							<h2><a href="#0">lanvin</a></h2>
+							<p class="description">Purple Metallic High-Top</p>
+							<p class="price">700.00</p>
+						</div>
+					</div>
+					<div class="pick">
+						<h2><a href="#0">stampd</a></h2>
+						<p class="description">Classics Astor MA-1  Jacket - Burgundy</p>
+						<p class="price">220.00</p>
+					</div>
+					<img class="fixed-picture-right" src="img/exclusive-product-3.png" alt="Эксклюзивный товар stampd" witgh="616" height="530">
+				</li>
+				<li class="exclusive-item">
+					<div class="picture">
+						<img src="img/exclusive-product-4.png" alt="Эксклюзивный товар kith" witgh="412" height="377">
+					</div>
+					<div class="pick">
+						<h2><a href="#0">kith</a></h2>
+						<p class="description">Just Don All Star Varsity Jacket - Grey</p>
+						<p class="price">1.200.00</p>
+					</div>
+				</li>
+				<li class="exclusive-item">
+					<div class="exclusive-item-wrapper exclusive-item-left location">
+						<div class="picture">
+							<div class="picture-item">
+								<img src="img/exclusive-product-6.jpg" alt="Эксклюзивный товар raf simons" witgh="380" height="211">
+							</div>
+							<h2><a href="#0">raf simons</a></h2>
+							<p class="description">Black Velcro High-Top</p>
+							<p class="price">788.00</p>
+						</div>
+					</div>
+					<div class="pick">
+						<h2><a href="#0">adidas originals <span class="divider">x</span>pharrell</a></h2>
+						<p class="description">Lil jacket - Polka Dot / Red</p>
+						<p class="price">1.000.00</p>
+					</div>
+					<img class="fixed-picture-left" src="img/exclusive-product-5.png" alt="Эксклюзивный товар adidas originals x pharrell" witgh="643" height="530">
+				</li>
+				<li class="exclusive-item">
+					<div class="picture location">
+						<img src="img/exclusive-product-7.png" alt="Эксклюзивный товар kith x ones stroke ueno" witgh="412" height="480">
+					</div>
+					<div class="pick">
+						<h2><a href="#0">kith <span class="divider">x</span>ones stroke ueno</a></h2>
+						<p class="description">Distressed Denim Pant - Black</p>
+						<p class="price">275.00</p>
+					</div>
+				</li>
+				<li class="exclusive-item">
+					<div class="exclusive-item-wrapper exclusive-item-right">
+						<div class="picture">
+							<div class="picture-item">
+								<img src="img/exclusive-product-8.jpg" alt="Эксклюзивный товар raf simons" witgh="380" height="240">
+							</div>
+							<h2><a href="#0">raf simons</a></h2>
+							<p class="description">Black Leather Heel Pocket High-Top</p>
+							<p class="price">1295.00</p>
+						</div>
+					</div>
+					<div class="pick">
+						<h2><a href="#0">supreme</a></h2>
+						<p class="description">Child of hell Beanie</p>
+						<p class="price">40.00</p>
+					</div>
+					<img class="fixed-picture-right supreme" src="img/exclusive-product-9.png" alt="Эксклюзивный товар supreme" witgh="530" height="530">
+				</li>
+			</ul>
+			<p class="loading">loading</p>
+		</section>
+	</main>
+	<footer class="main-footer">
+		<section class="footer-navigation">
+			<a href="#0" class="footer-logo">Логотип Bree-ecom</a>
+			<ul class="footer-catalog-list">
+				<li class="footer-catalog-item"><a href="#0">footwear</a></li>
+				<li class="footer-catalog-item"><a href="#0">clothing</a></li>
+				<li class="footer-catalog-item"><a href="#0">accessories</a></li>
+				<li class="footer-catalog-item"><a href="#0">brands</a></li>
+				<li class="footer-catalog-item"><a href="#0">clearance</a></li>
+				<li class="footer-catalog-item"><a href="#0">about</a></li>
+				<li class="footer-catalog-item"><a href="#0">contacts us</a></li>
+				<li class="footer-catalog-item"><a href="#0">support</a></li>
+				<li class="footer-catalog-item"><a href="#0">store locator</a></li>
+				<li class="footer-catalog-item"><a href="#0">press room</a></li>
+				<li class="footer-catalog-item"><a href="#0">website terms</a></li>
+				<li class="footer-catalog-item"><a href="#0">select country</a></li>
+				<li class="footer-catalog-item"><a href="#0">source code</a></li>
+			</ul>
+			<div class="footer-social-wrapper">
+				<div class="footer-social--wrapper">
+					<ul class="footer-social">
+						<li><a class="social-button youtube-icon" href="#0">youtube</a></li>
+						<li><a class="social-button instagram-icon" href="#0">instagram</a></li>
+						<li><a class="social-button twitter-icon" href="#0">twitter</a></li>
+						<li><a class="social-button facebook-icon" href="#0">facebook</a></li>
+						<li><a class="social-button pinterest-icon" href="#0">pinterest</a></li>
+					</ul>
+					<form action="#0" method="post" class="subscription">
+						<input type="email" placeholder="Subscribe our newsletter...">
+						<button class="subscription-btn" type="submit">subscribe</button>
+					</form>
+				</div>
+				<button type="button" class="feedback">feedback</button>
+			</div>
+		</section>
+		<p class="copyright">Copyright © 2015 Bree Orthonormai. All rights reserved.</p>
+	</footer>
+	<section class="modal modal-contact">
+		<h2 class="visually-hidden">Форма обратной связи</h2>
+		<form action="#0" method="post">
+			<div class="appointment-item-contacts">
+				<p class="appointment-item">
+					<label for="appointment-name">your name:</label>
+					<input id="appointment-name" type="text" name="name" placeholder="Name Surname">
+				</p>
+				<p class="appointment-item">
+					<label for="appointment-email">your e-mail:</label>
+					<input id="appointment-email" type="email" name="email" placeholder="email@example.com">
+				</p>
+			</div>
+			<p class="appointment-item">
+				<label for="appointment-letter">text of the letter:</label>
+				<textarea id="appointment-letter" name="appointment-letter" rows="8" cols="70" placeholder="In a free form"></textarea>
+			</p>
+			<button class="button" type="submit">to send</button>
+		</form>
+		<button class="btn-close-form" type="button">Закрыть</button>
+	</section>
+	<div class="modal-overlay"></div>
+	<script src="js/letter.js"></script>
+	<script src="js/search.js"></script>
+</body>
+</html>
